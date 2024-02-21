@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;    
+    height: 100vh;
+    padding: 20px 20px;
+    background-color: burlywood;
+}
+
+h1 {
+    font-family: "Kode Mono", monospace;
+    font-size: 60px;
+
+}
+
+.fjalla-one-regular {
+    font-family: "Kode Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.5rem;
+    
+
+  }
+    nav {
+        padding:  25px 25px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    a {
+        font-family: "Kode Mono", monospace;
+        color: #011627;
+        padding: 20px 20px;
+        font-size: 2.5rem ;
+        text-decoration: none;
+
+
+    }
+    a:hover { 
+        text-decoration: underline;
+    }
+    
+    section {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #html { 
+        background-color: #011627;
+    }
+    
+    #css { 
+        background-color: burlywood
+    }
+    
+    #js { 
+        background-color: #011627;
+    }
+    
+    #game-dev { 
+        background-color: burlywood
+    }
+    
+    #vr { 
+        background-color: #011627;
+    }
+    
+    section > h1 {
+        font-family: "Fjalla One", sans-serif; 
+        font-size: 2.1rem;
+        color: cyan;
+    }
+
+    #icone {
+        border: 1px solid #011627;;
+        padding: 20px;
+        position: fixed;
+        border-radius: 15px;
+        bottom: 20px;
+        right: 20px;
+
+    }
